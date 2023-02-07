@@ -1,5 +1,5 @@
 export const drawRange = (range, ctx) => {
-  const text = range ? range : "How old are you?";
+  const text = range ? range - 3 : "How old are you?";
   ctx.beginPath();
   ctx.arc(
     ctx.canvas.width / 2,
